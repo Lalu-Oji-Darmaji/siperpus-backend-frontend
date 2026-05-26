@@ -9,7 +9,7 @@
 - Content-Type: application/json
 
 ### Body
--Raw/json
+- Raw/json
 {
   "email": "admin@siperpus.id",
   "password": "password"
@@ -38,7 +38,7 @@ Json
 - URL: http://localhost:3000/api/buku
 
 ### Response
--Json
+- Json
 {
     "success": true,
     "data": {
@@ -165,7 +165,7 @@ Json
 - URL: http://localhost:3000/api/buku?search=Programmer&kategori=Teknologi
 
 ### Response
--Json
+- Json
 {
     "success": true,
     "data": {
@@ -202,7 +202,7 @@ Json
 - URL:  http://localhost:3000/api/buku?search=vue&kategori=Teknologi
 
 ### Response
--Json
+- Json
 {
     "success": true,
     "data": {
@@ -260,7 +260,7 @@ Json
 - Content-Type: application/json
 
 ### Body
--Raw/Json
+- Raw/Json
 {
   "judul": "The Pragmatic Programmer",
   "penulis": "David Thomas",
@@ -304,11 +304,11 @@ Json
 -Bearer Token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBzaXBlcnB1cy5pZCIsInJvbGUiOiJwdXN0YWthd2FuIiwiaWF0IjoxNzc5NzYzMDAxLCJleHAiOjE3ODAzNjc4MDF9.1iHvV2uajdzBHvkqFqIWwSv9lQACOWYS9iWlKhGWif8 (token dari response Login)
 
 ### Body
--Raw/Json
+- Raw/Json
 {}
 
 ### Response
--Json
+- Json
 {
     "success": false,
     "message": "Data tidak valid",
