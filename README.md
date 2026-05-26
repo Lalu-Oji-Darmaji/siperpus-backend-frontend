@@ -5,17 +5,17 @@
 ### Request
 - Method: POST
 - URL: http://localhost:3000/api/auth/login
-## Header 
+### Header 
 - Content-Type: application/json
 
 ### Body
-Raw/json
+-Raw/json
 {
   "email": "admin@siperpus.id",
   "password": "password"
 }
 
-## Response
+### Response
 Json
 {
     "success": true,
@@ -37,8 +37,8 @@ Json
 - Method: GET
 - URL: http://localhost:3000/api/buku
 
-## Response
-Json
+### Response
+-Json
 {
     "success": true,
     "data": {
@@ -164,8 +164,8 @@ Json
 - Method: GET
 - URL: http://localhost:3000/api/buku?search=Programmer&kategori=Teknologi
 
-## Response
-Json
+### Response
+-Json
 {
     "success": true,
     "data": {
@@ -201,8 +201,8 @@ Json
 - Method: GET
 - URL:  http://localhost:3000/api/buku?search=vue&kategori=Teknologi
 
-## Response
-Json
+### Response
+-Json
 {
     "success": true,
     "data": {
@@ -260,7 +260,7 @@ Json
 - Content-Type: application/json
 
 ### Body
-Raw/Json
+-Raw/Json
 {
   "judul": "The Pragmatic Programmer",
   "penulis": "David Thomas",
@@ -272,7 +272,7 @@ Raw/Json
   "stok": 2
 }
 
-## Response
+### Response
 Json
 {
     "success": true,
@@ -304,11 +304,11 @@ Json
 -Bearer Token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJhZG1pbkBzaXBlcnB1cy5pZCIsInJvbGUiOiJwdXN0YWthd2FuIiwiaWF0IjoxNzc5NzYzMDAxLCJleHAiOjE3ODAzNjc4MDF9.1iHvV2uajdzBHvkqFqIWwSv9lQACOWYS9iWlKhGWif8 (token dari response Login)
 
 ### Body
-Raw/Json
+-Raw/Json
 {}
 
-## Response
-Json
+### Response
+-Json
 {
     "success": false,
     "message": "Data tidak valid",
